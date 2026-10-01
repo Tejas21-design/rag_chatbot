@@ -5,14 +5,36 @@
 # Install with:  pip install -r requirements.txt
 
 chromadb==1.5.9
-sentence-transformers==6.1.0
+streamlit==1.64.0
 groq==1.7.0
 python-dotenv==1.2.3
 beautifulsoup4==4.15.0
 lxml==6.1.3
-streamlit==1.64.0
 
 # HDFC serves HTTP/2 and brotli-compressed pages; scraping fails without these.
 httpx[http2]==0.28.1
 h2==4.4.1
 brotli==1.2.0
+
+# --- embedding -------------------------------------------------------------
+# Two roles, deliberately split:
+#
+# 1. SERVING (runtime). onnxruntime + tokenizers run the exported MiniLM in
+#    ~185 MB total RSS. Importing torch instead costs ~594 MB, which a 512 MB
+#    container cannot hold. See scripts/export_onnx.py and docs/deployment.md.
+onnxruntime==1.30.0
+tokenizers==0.23.2
+onnx==1.23.1
+onnxscript==0.7.2
+
+# 2. EXPORT (build time only). torch + sentence-transformers exist so
+#    `python scripts/export_onnx.py` can produce models/minilm.onnx and so the
+#    export can be checked against the reference implementation. Never imported
+#    when the ONNX files are present.
+#
+# Install the CPU-only wheels on a machine with no GPU. The default PyPI torch
+# wheel drags in ~2.8 GB of CUDA libraries that sit unused:
+#
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1
+sentence-transformers==6.1.0

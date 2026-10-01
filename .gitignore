@@ -17,3 +17,8 @@ data/raw/
 # is the PRD section 13 criterion "chunks are inspectable in a .txt file" -- a
 # reviewer should be able to read the corpus without scraping HDFC themselves.
 # It goes stale as the pages update, which docs/verification.md calls out.
+
+# ONNX export for low-memory serving. Regenerate at build time:
+#   python scripts/export_onnx.py
+# ~90 MB of derived weights, not source.
+models/

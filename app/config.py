@@ -23,6 +23,11 @@ CHROMA_DIR = Path(os.getenv("CHROMA_DIR", DATA_DIR / "chroma"))
 CHUNKS_TXT = DATA_DIR / "chunks.txt"
 RAW_DIR = DATA_DIR / "raw"
 INGEST_MANIFEST = DATA_DIR / "ingest_manifest.json"
+MODELS_DIR = Path(os.getenv("MODELS_DIR", PROJECT_ROOT / "models"))
+
+# MiniLM's word-piece window. Both backends truncate here so ingestion and
+# query cannot silently disagree about what "too long" means.
+MAX_SEQUENCE_LENGTH = 256
 
 # --- env-backed settings ---------------------------------------------------
 
