@@ -14,6 +14,7 @@ lifetime of the browser session and holds question text and answer text only.
 
 from __future__ import annotations
 
+import os
 import sys
 from pathlib import Path
 
@@ -104,11 +105,40 @@ def ask(question: str) -> None:
     st.session_state["messages"].append({"role": "assistant", "content": response["answer"]})
 
 
-if not store.is_populated():
-    st.error("Corpus not ingested.")
-    st.code("python -m app.ingest", language="bash")
-    st.caption("Then restart. Ingestion is a one-time step and is not run on app start.")
-    st.stop()
+_status = store.population_status()
+if not _status["populated"]:
+    # The corpus is built during `render deploy`, but a host with an ephemeral
+    # filesystem may not carry build output into the running container. Ingesting
+    # here is the difference between a working demo and an empty screen, and it
+    # costs ~20 s once per cold start. Set AUTO_INGEST_ON_START=false to keep the
+    # strict behaviour of never ingesting on app start.
+    _auto = os.getenv("AUTO_INGEST_ON_START", "true").strip().lower() not in {
+        "0",
+        "false",
+        "no",
+    }
+    if _auto and _status["error"] is None:
+        with st.spinner("Building the corpus from the HDFC pages (first start only)…"):
+            try:
+                from app.ingest import ingest
+
+                ingest(force=True)
+                _status = store.population_status()
+            except Exception as exc:  # noqa: BLE001 - report, do not crash the UI
+                _status["error"] = f"{type(exc).__name__}: {exc}"
+
+    if not _status["populated"]:
+        st.error("Corpus not ingested.")
+        st.code("python -m app.ingest", language="bash")
+        st.caption("Then restart. Ingestion is a one-time step and is not run on app start.")
+        if _status["error"]:
+            st.caption(f"Chroma could not be read: `{_status['error']}`")
+            st.caption(
+                f"Expected `{config.CHROMA_DIR}` to hold "
+                f"`{config.COLLECTION_NAME}`. If that directory is empty, the build "
+                "step did not persist its output."
+            )
+        st.stop()
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []

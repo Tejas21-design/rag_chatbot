@@ -35,12 +35,30 @@ def get_collection():
 
 
 def is_populated() -> bool:
-    """True when ingest has already run. The app start path checks this and
-    skips ingestion entirely (architecture section 5.4)."""
+    """True when ingest has already run.
+
+    Previously this returned False on any exception, which reported a Chroma
+    failure as "Corpus not ingested" and hid the cause. Callers that care should
+    use population_status(), which keeps the error.
+    """
+    return population_status()["populated"]
+
+
+def population_status() -> dict:
+    """Report whether the corpus is usable, and why not when it is not.
+
+    A bare bool cannot distinguish "ingest never ran" from "Chroma is present but
+    unreadable", and those need completely different fixes.
+    """
     try:
-        return get_collection().count() > 0
-    except Exception:  # noqa: BLE001 - a missing collection means "not ingested"
-        return False
+        count = get_collection().count()
+        return {"populated": count > 0, "count": count, "error": None}
+    except Exception as exc:  # noqa: BLE001 - surfaced to the caller, not hidden
+        return {
+            "populated": False,
+            "count": 0,
+            "error": f"{type(exc).__name__}: {exc}",
+        }
 
 
 def reset_collection() -> None:

@@ -74,6 +74,11 @@ Two things that are easy to get wrong here:
 | `PYTHONUNBUFFERED` | `1` | no |
 | `OMP_NUM_THREADS` | `1` | no — recommended |
 
+`AUTO_INGEST_ON_START` (default `true`) lets the app rebuild a missing corpus at
+startup. Render may not carry build output into the running container, so this is
+what makes the demo work rather than showing an empty screen. Set it to `false` for
+the strict PRD behaviour where ingestion never happens on app start.
+
 Do **not** set `CHROMA_DIR`. It defaults to `data/chroma` relative to the project
 root, which is where the build writes it; an absolute path would point the app at
 a directory that was never populated.
@@ -105,6 +110,6 @@ torch backend still works -- set `EMBEDDER_BACKEND=torch` to pin it.
 |---|---|
 | `streamlit: command not found` | Start Command lost the `python -m` wrapper |
 | Page hangs on "Loading the embedding model" | Model load thrashing; confirm `models/minilm.onnx.data` shipped |
-| `Corpus not ingested` | Build Command ran ingest before `export_onnx.py`, or it failed |
+| `Corpus not ingested` | Build output did not survive into the running container (ephemeral filesystem) — the app now rebuilds on first start, so this only persists if that also failed |
 | Declines everything | `models/minilm.onnx.data` missing, so the graph loads with no weights |
 | First question 30 s+, then fast | Cold start on a free-tier spin-down |

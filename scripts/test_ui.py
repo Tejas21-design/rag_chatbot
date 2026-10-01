@@ -36,7 +36,14 @@ imports = set(re.findall(r"^(?:from|import)\s+([\w.]+)", src, re.MULTILINE))
 check("app.py imports no loader/chunker/ingest/httpx",
       not ({"app.loader", "app.chunker", "app.ingest", "httpx"} & imports), str(sorted(imports)))
 check("app.py imports store only to guard ingestion", "app.store" in imports or "from app import" in src)
-check("no ingest call anywhere in app.py", "ingest" not in src.replace("is_populated", "").replace("Corpus not ingested", "").replace("app.ingest", "@@").split("@@")[0].split("@@")[0] or "python -m app.ingest" in src)
+check("app.py imports no loader/chunker at module level", not ({"app.loader", "app.chunker"} & imports), str(sorted(imports)))
+# Ingestion on start was forbidden outright. That is now conditional: hosts with
+# an ephemeral filesystem do not carry build output into the running container, so
+# app.py may rebuild a missing corpus, but must never re-ingest over a good one.
+check("auto-ingest is opt-out via AUTO_INGEST_ON_START", "AUTO_INGEST_ON_START" in src)
+check("auto-ingest only runs when the corpus is missing",
+      "population_status" in src and "_status[\"populated\"]" in src)
+check("auto-ingest is guarded by the flag, not unconditional", "if _auto" in src)
 check("exactly one set_page_config", len(re.findall(r"st\.set_page_config\(", src)) == 1)
 check("set_page_config is the first st call",
       re.findall(r"st\.(\w+)\(", src)[0] == "set_page_config")
@@ -54,7 +61,8 @@ check("DISCLAIMER constant exists", bool(_disc))
 for _frag in ["Facts-only", "Scheme Information Document (SID)", "KIM",
               "SEBI-registered", "Do not share PAN"]:
     check(f"disclaimer contains: {_frag[:34]}", _frag in _disc)
-check("empty-corpus guard present", "is_populated" in src and "st.stop()" in src)
+check("empty-corpus guard present", "not _status[\"populated\"]" in src and "st.stop()" in src)
+check("Chroma read errors are surfaced, not swallowed", "population_error" in src or "_status[\"error\"]" in src)
 
 # --- the real render function, against real responses ---
 captured = {"markdown": [], "link": [], "caption": [], "expanders": [], "buttons": [], "code": [], "info": [], "title": []}
