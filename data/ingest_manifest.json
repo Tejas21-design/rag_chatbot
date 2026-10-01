@@ -1,0 +1,25 @@
+{
+  "ingested_at": "2026-10-01T09:37:59+00:00",
+  "max_fetched_at": "2026-10-01T09:37:48+00:00",
+  "urls": [
+    "https://www.hdfcfund.com/",
+    "https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct",
+    "https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct",
+    "https://www.hdfcfund.com/mutual-funds/factsheets",
+    "https://www.hdfcfund.com/mutual-funds/fund-documents"
+  ],
+  "chunk_count": 63,
+  "dropped_count": 15,
+  "collection": "hdfc_faq",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_dim": 384,
+  "chroma_dir": "data/chroma",
+  "chunks_txt": "data/chunks.txt",
+  "chunk_strategy": {
+    "target_words": 160,
+    "max_words": 200,
+    "min_words": 12,
+    "overlap_words": 30,
+    "note": "docs/chunking.md"
+  }
+}

@@ -44,7 +44,7 @@ for q in PROBES[1:]:
 
 print("\n-- C. Key is not in any tracked file or committed source --")
 import subprocess
-root = Path("/Users/tejas-24347/Documents/opencode/ChatBot")
+root = Path(__file__).resolve().parent.parent
 tracked = [p for p in root.rglob("*") if p.is_file()
            and "__pycache__" not in str(p) and ".venv" not in str(p)
            and "chroma" not in str(p) and "raw" not in str(p)
