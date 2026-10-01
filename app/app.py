@@ -29,7 +29,6 @@ import streamlit as st  # noqa: E402
 
 from app import config, store  # noqa: E402
 from app.answer import answer_question  # noqa: E402
-from app.embedder import get_model  # noqa: E402
 from app.generate import GroqUnavailableError  # noqa: E402
 
 st.set_page_config(page_title="HDFC MF FAQ Assistant", layout="centered")
@@ -110,14 +109,6 @@ if not store.is_populated():
     st.code("python -m app.ingest", language="bash")
     st.caption("Then restart. Ingestion is a one-time step and is not run on app start.")
     st.stop()
-
-# Load MiniLM once at startup rather than on the user's first question. It costs
-# ~10s to bring up; paying that during boot keeps it off the first real request,
-# which on a small instance is the difference between a spinner and an answer.
-# cache_resource keeps exactly one copy alive across Streamlit reruns.
-with st.spinner("Loading the embedding model (first start only)…"):
-    store.get_collection()
-    get_model()
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
