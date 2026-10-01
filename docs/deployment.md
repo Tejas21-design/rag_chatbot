@@ -73,11 +73,19 @@ Two things that are easy to get wrong here:
 | `GROQ_MODEL` | `openai/gpt-oss-120b` (the default; override only if your account has better) | no |
 | `PYTHONUNBUFFERED` | `1` | no |
 | `OMP_NUM_THREADS` | `1` | no — recommended |
+| `AUTO_INGEST_ON_START` | `true` | no — `false` forbids ingest on app start |
+| `INGEST_DEADLINE_SECONDS` | `150` | no — ceiling on an interactive build only |
 
 `AUTO_INGEST_ON_START` (default `true`) lets the app rebuild a missing corpus at
 startup. Render may not carry build output into the running container, so this is
 what makes the demo work rather than showing an empty screen. Set it to `false` for
 the strict PRD behaviour where ingestion never happens on app start.
+
+That rebuild runs on a background thread (`app/builder.py`) with a
+150 s deadline. Both exist for the same reason: blocking the Streamlit script on a
+network job froze the entire UI, and since Streamlit re-runs the script on every
+interaction, the scrape was retried on every click. With five URLs, a 30 s timeout
+and three attempts each, "frozen" meant up to eight minutes.
 
 Do **not** set `CHROMA_DIR`. It defaults to `data/chroma` relative to the project
 root, which is where the build writes it; an absolute path would point the app at
@@ -113,3 +121,4 @@ torch backend still works -- set `EMBEDDER_BACKEND=torch` to pin it.
 | `Corpus not ingested` | Build output did not survive into the running container (ephemeral filesystem) — the app now rebuilds on first start, so this only persists if that also failed |
 | Declines everything | `models/minilm.onnx.data` missing, so the graph loads with no weights |
 | First question 30 s+, then fast | Cold start on a free-tier spin-down |
+| Spinner never resolves | Interactive ingest hit its 150 s deadline; the page shows the reason. A build step has no deadline |

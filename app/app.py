@@ -30,6 +30,7 @@ import streamlit as st  # noqa: E402
 
 from app import config, store  # noqa: E402
 from app.answer import answer_question  # noqa: E402
+from app.builder import CorpusBuilder, deadline_note  # noqa: E402
 from app.generate import GroqUnavailableError  # noqa: E402
 
 st.set_page_config(page_title="HDFC MF FAQ Assistant", layout="centered")
@@ -108,37 +109,54 @@ def ask(question: str) -> None:
 _status = store.population_status()
 if not _status["populated"]:
     # The corpus is built during `render deploy`, but a host with an ephemeral
-    # filesystem may not carry build output into the running container. Ingesting
-    # here is the difference between a working demo and an empty screen, and it
-    # costs ~20 s once per cold start. Set AUTO_INGEST_ON_START=false to keep the
-    # strict behaviour of never ingesting on app start.
+    # filesystem may not carry build output into the running container. Building
+    # it here is the difference between a working demo and an empty screen.
+    # It runs on a thread so the page stays responsive and shows which page it is
+    # on; blocking the script on a 60 s scrape is what produced a spinner that
+    # never resolved, and Streamlit re-runs this script on every interaction.
     _auto = os.getenv("AUTO_INGEST_ON_START", "true").strip().lower() not in {
         "0",
         "false",
         "no",
     }
+
+    @st.cache_resource(show_spinner=False)
+    def _builder():
+        return CorpusBuilder()
+
     if _auto and _status["error"] is None:
-        with st.spinner("Building the corpus from the HDFC pages (first start only)…"):
-            try:
-                from app.ingest import ingest
+        _builder().start()
 
-                ingest(force=True)
-                _status = store.population_status()
-            except Exception as exc:  # noqa: BLE001 - report, do not crash the UI
-                _status["error"] = f"{type(exc).__name__}: {exc}"
-
-    if not _status["populated"]:
-        st.error("Corpus not ingested.")
-        st.code("python -m app.ingest", language="bash")
-        st.caption("Then restart. Ingestion is a one-time step and is not run on app start.")
-        if _status["error"]:
-            st.caption(f"Chroma could not be read: `{_status['error']}`")
-            st.caption(
-                f"Expected `{config.CHROMA_DIR}` to hold "
-                f"`{config.COLLECTION_NAME}`. If that directory is empty, the build "
-                "step did not persist its output."
+        @st.fragment(run_every="2s")
+        def _show_progress():
+            _snap = _builder().snapshot()
+            _st = _snap["status"]
+            if _st["populated"]:
+                st.rerun()
+                return
+            st.info(
+                f"Building the corpus from the HDFC pages — "
+                f"{_snap['lines'][-1] if _snap['lines'] else 'starting'}"
             )
+            for _line in _snap["lines"]:
+                st.caption(_line)
+            if _snap["error"]:
+                st.error(_snap["error"])
+                st.caption(deadline_note())
+
+        _show_progress()
         st.stop()
+
+    st.error("Corpus not ingested.")
+    st.code("python -m app.ingest", language="bash")
+    st.caption("Then restart. Ingestion is a one-time step and is not run on app start.")
+    if _status["error"]:
+        st.caption(f"Chroma could not be read: `{_status['error']}`")
+        st.caption(
+            f"Expected `{config.CHROMA_DIR}` to hold `{config.COLLECTION_NAME}`. "
+            "If that directory is empty, the build step did not persist its output."
+        )
+    st.stop()
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []

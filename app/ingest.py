@@ -10,12 +10,13 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from datetime import datetime, timezone
 
 from app import config, store
 from app.chunker import Chunk, chunk_document, write_chunks_txt
 from app.embedder import embed_texts
-from app.loader import extract_sections, fetch_html, load_all
+from app.loader import extract_sections, load_all
 
 BATCH_SIZE = 32
 
@@ -24,39 +25,65 @@ def _log(message: str) -> None:
     print(message, flush=True)
 
 
-def ingest(*, reingest: bool = False, force: bool = False) -> dict:
-    """Build the corpus and store it. Skips when Chroma is already populated."""
+def ingest(*, reingest: bool = False, force: bool = False, on_progress=None) -> dict:
+    """Build the corpus and store it. Skips when Chroma is already populated.
+
+    ``on_progress`` receives a short status line after each step, so a caller
+    driving this from a UI can show real progress instead of an indeterminate
+    spinner.
+    """
     if store.is_populated() and not (reingest or force):
         _log("Chroma already populated, skipping ingest.")
         _log(f"  collection : {config.COLLECTION_NAME}")
         _log(f"  persist dir: {config.CHROMA_DIR}")
-        _log("  re-run with: python -m app.ingest --reingest")
+        _log("re-run with: python -m app.ingest --reingest")
         return {"skipped": True, "chroma_dir": str(config.CHROMA_DIR)}
 
     if reingest or force:
         _log("Resetting collection (--reingest) so no chunks are duplicated...")
         store.reset_collection()
 
-    _log(f"Loading {len(config.APPROVED_URLS)} approved URLs (docs/PRD.md section 4.2)...")
+    deadline = time.monotonic() + config.INGEST_DEADLINE_SECONDS
+
+    def step(message: str) -> None:
+        _log(message)
+        if on_progress is not None:
+            on_progress(message)
+
+    def check_deadline(stage: str) -> None:
+        if deadline - time.monotonic() <= 0:
+            raise TimeoutError(
+                f"Ingest exceeded {config.INGEST_DEADLINE_SECONDS}s while {stage}. "
+                "hdfcfund.com was slow or unreachable from this host. A build step "
+                "has no such ceiling, so running `python -m app.ingest` where egress "
+                "is normal is the workaround."
+            )
+
+    step(f"Fetching {len(config.APPROVED_URLS)} approved URLs (docs/PRD.md 4.2)...")
+    check_deadline("fetching pages")
     documents = load_all()
-    _log(f"  loaded {len(documents)} pages")
+    step(f"Fetched {len(documents)} pages")
 
     chunks: list[Chunk] = []
     dropped = []
     thin_pages: list[str] = []
     for doc in documents:
-        _, sections = extract_sections(fetch_html(doc["url"]), doc["url"])
+        check_deadline("chunking pages")
+        # Reuse the HTML load_all already downloaded. Re-fetching here doubled
+        # the network time of every ingest for identical output.
+        _, sections = extract_sections(doc["html"], doc["url"])
         page_chunks, page_dropped = chunk_document(doc, sections)
         chunks.extend(page_chunks)
         dropped.extend(page_dropped)
         slug = config.slug_for(doc["url"])[:44]
-        _log(f"  {slug:46s} chunks={len(page_chunks):3d}")
+        step(f"  {slug:46s} chunks={len(page_chunks):3d}")
         if not page_chunks:
             # A page can return HTTP 200 and still carry no usable text, because
             # the documents are rendered by JavaScript. It fetched, so nothing
             # errored, and the corpus just quietly misses it -- which reads the
             # same as a page that worked. Say so.
             thin_pages.append(doc["url"])
+
 
     for url in thin_pages:
         _log(f"  WARNING: no chunks from {url} (likely JS-rendered); questions "

@@ -298,7 +298,13 @@ def extract_sections(html: str, url: str) -> tuple[str, list[dict]]:
 
 
 def fetch_document(url: str, *, timeout: int | None = None, attempts: int = 3) -> SourceDocument:
-    """Load one approved page into a SourceDocument."""
+    """Load one approved page into a SourceDocument.
+
+    The raw HTML is kept on the record under ``html``. extract_sections needs the
+    parsed soup, so without this the caller would have to fetch every page a
+    second time -- doubling ingest's network time and doubling its chance of
+    hitting a rate limit.
+    """
     _require_approved(url)
     html = fetch_html(url, timeout=timeout, attempts=attempts)
     title, text = extract_text(html, url)
@@ -306,6 +312,7 @@ def fetch_document(url: str, *, timeout: int | None = None, attempts: int = 3) -
         "url": url,
         "title": title,
         "text": text,
+        "html": html,
         "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
 

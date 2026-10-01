@@ -98,6 +98,12 @@ BROWSER_HEADERS = {
 HTTP_TIMEOUT = 30
 HTTP_ATTEMPTS = 3
 
+#: Wall-clock ceiling for one whole ingest. With 5 URLs, a 30 s timeout, 3
+#: attempts each and exponential backoff, a hostile or unreachable HDFC works out
+#: to ~8 minutes. That is fine for a build step and unacceptable in front of a
+#: user waiting on a spinner, so an interactive ingest gives up and says why.
+INGEST_DEADLINE_SECONDS = int(os.getenv("INGEST_DEADLINE_SECONDS", "150"))
+
 
 def slug_for(url: str) -> str:
     """Stable filesystem-friendly slug for a corpus URL."""

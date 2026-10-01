@@ -1,7 +1,7 @@
 ==============================================================================
 CHUNK DUMP - HDFC Mutual Fund FAQ Assistant
 ==============================================================================
-generated_at : 2026-10-01T09:37:59+00:00
+generated_at : 2026-10-01T16:18:44+00:00
 chunks       : 63
 strategy     : heading-aware split, target 160 words, max 200, overlap 30 (docs/chunking.md)
 
@@ -22,7 +22,7 @@ id: b39cba6a8c2ff135
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Overview
 chunk_index: 0
 words: 12
@@ -34,7 +34,7 @@ id: 146a2fc64c6acc62
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Join 1.7 Crore+ investors Who trust HDFC Mutual Fund
 chunk_index: 1
 words: 106
@@ -68,7 +68,7 @@ id: e01b221e5efab624
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Mutual Fund Tools
 chunk_index: 2
 words: 31
@@ -94,7 +94,7 @@ id: f35065fc50ed5feb
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Explore Mutual Funds by Category
 chunk_index: 3
 words: 24
@@ -117,7 +117,7 @@ id: ea057750133f0c82
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC
 chunk_index: 4
 words: 33
@@ -146,7 +146,7 @@ id: 0d77d7eebcac7b09
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC
 chunk_index: 5
 words: 33
@@ -175,7 +175,7 @@ id: de03164b4885cd34
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC
 chunk_index: 6
 words: 41
@@ -205,23 +205,16 @@ id: 8e28e14dbbe00d48
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: New Fund Offering
 chunk_index: 7
-words: 166
+words: 96
 ---
 New Fund Offering
 Why invest in HDFC FTSE India Equity ETF?
 Provides ~90% market cap coverage of FTSE India All Cap Index
 Diversifications across multiple stocks and sectors
 FTSE India Equity TRI has generated healthy returns over long-term horizons
-For detailed information and disclosures click on
-Know More
-Why invest in HDFC Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70:30 Index Fund?
-Exposure to both, Equity and Debt, in a single scheme.
-Aim to benefit from the growth potential of Equity with the stability of Debt.
-Low correlation between Equity and Debt helps reduce portfolio volatility and provides diversification benefits.
-Systematic rebalancing helps avoid behavioral biases associated with DIY rebalancing.
 For detailed information and disclosures click on
 Know More
 HDFC
@@ -251,7 +244,7 @@ id: 361b67cbd37df28e
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC Balanced Advantage Fund
 chunk_index: 8
 words: 13
@@ -268,7 +261,7 @@ id: 6b7bc26aeff22417
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC Nifty 50 Index Fund
 chunk_index: 9
 words: 12
@@ -284,7 +277,7 @@ id: c217e6be1cc546b7
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC NIFTY Next 50 Index Fund
 chunk_index: 10
 words: 13
@@ -300,7 +293,7 @@ id: 11f6d33be3cb91ad
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC Nifty LargeMidcap 250 Index Fund
 chunk_index: 11
 words: 15
@@ -317,7 +310,7 @@ id: 32cb47eb020467cd
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC Transportation and Logistics Fund
 chunk_index: 12
 words: 12
@@ -333,7 +326,7 @@ id: fa3767d24b4ff977
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: HDFC Pharma and Healthcare Fund
 chunk_index: 13
 words: 17
@@ -351,7 +344,7 @@ id: 1174be3adee05b7f
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Start Investing in Mutual Funds
 chunk_index: 14
 words: 26
@@ -367,7 +360,7 @@ id: ce7e3f878e28a676
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Flexi Cap Fund
 chunk_index: 15
 words: 37
@@ -399,7 +392,7 @@ id: 1b9768c444dfa5d5
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Mid Cap Fund
 chunk_index: 16
 words: 37
@@ -431,7 +424,7 @@ id: 66492381fc5a4249
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Silver ETF Fund of Fund
 chunk_index: 17
 words: 39
@@ -463,7 +456,7 @@ id: 2f60da18bb56b2f6
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Small Cap Fund
 chunk_index: 18
 words: 37
@@ -495,7 +488,7 @@ id: bad5a04a21d2eeef
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Balanced Advantage Fund
 chunk_index: 19
 words: 36
@@ -526,7 +519,7 @@ id: f9c181d17a81b439
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Latest Posts And Shorts
 chunk_index: 20
 words: 163
@@ -564,7 +557,7 @@ id: cabdbe7d95998247
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Latest Posts And Shorts
 chunk_index: 21
 words: 186
@@ -606,7 +599,7 @@ id: 930494137abb53e4
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Latest Posts And Shorts
 chunk_index: 22
 words: 116
@@ -636,7 +629,7 @@ id: 99ece5f02759c10e
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Mutual Fund Simplified For You
 chunk_index: 23
 words: 46
@@ -653,7 +646,7 @@ id: e10eef823bf3322f
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: How To Start Your Investing Journey With HDFC Mutual Fund Online
 chunk_index: 24
 words: 125
@@ -698,7 +691,7 @@ id: 54b431c0fe3c9ac5
 url: https://www.hdfcfund.com/
 title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Ways To Invest In Mutual Funds
 chunk_index: 25
 words: 13
@@ -713,7 +706,7 @@ id: d18d00900968940f
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Overview
 chunk_index: 0
 words: 16
@@ -725,7 +718,7 @@ id: 2fc74265aab97d80
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: About HDFC Flexi Cap Fund
 chunk_index: 1
 words: 81
@@ -741,7 +734,7 @@ id: 502873d1efadf3f9
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What is HDFC Flexi Cap Fund?
 chunk_index: 2
 words: 57
@@ -759,7 +752,7 @@ id: be6239ef9bd6a44c
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Who can consider HDFC Flexi Cap Fund?
 chunk_index: 3
 words: 36
@@ -775,7 +768,7 @@ id: 964bc174779481f9
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: How to start investing
 chunk_index: 4
 words: 121
@@ -809,7 +802,7 @@ id: 2dafcd32a3051a79
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: How to start investing
 chunk_index: 5
 words: 177
@@ -842,7 +835,7 @@ id: 9d986eb922d808fe
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: How to start investing
 chunk_index: 6
 words: 105
@@ -867,7 +860,7 @@ id: 6186935537206a20
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Benchmark Performance
 chunk_index: 7
 words: 68
@@ -889,7 +882,7 @@ id: 5be9540c43e07c7a
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Portfolio Allocation & Top Holdings
 chunk_index: 8
 words: 12
@@ -904,7 +897,7 @@ id: 6495b8c798128b52
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Downloads
 chunk_index: 9
 words: 44
@@ -922,7 +915,7 @@ id: 5aa3fa8cf5704f30
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Exit Load
 chunk_index: 10
 words: 51
@@ -936,7 +929,7 @@ id: 434f8eb7b226e4d7
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Product Suitability
 chunk_index: 11
 words: 45
@@ -952,7 +945,7 @@ id: f943822ce067d9c5
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What is HDFC Flexi Cap Fund?
 chunk_index: 12
 words: 35
@@ -965,7 +958,7 @@ id: acd695dd2a4819d1
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: How does a Flexi Cap Fund work?
 chunk_index: 13
 words: 26
@@ -978,7 +971,7 @@ id: 2742bdf617d4762f
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What is the key advantage of a Flexi Cap Fund?
 chunk_index: 14
 words: 40
@@ -991,7 +984,7 @@ id: 7350a707ccfcaec7
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Is HDFC Flexi Cap Fund suitable for long-term investment?
 chunk_index: 15
 words: 27
@@ -1004,7 +997,7 @@ id: 2a483ca3c909ef3e
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Who should invest in HDFC Flexi Cap Fund?
 chunk_index: 16
 words: 25
@@ -1017,7 +1010,7 @@ id: 3d027c67f6f24baa
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Is this fund risky?
 chunk_index: 17
 words: 29
@@ -1030,7 +1023,7 @@ id: 6cc57160950357c3
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: How is Flexi Cap different from Multi Cap funds?
 chunk_index: 18
 words: 33
@@ -1043,7 +1036,7 @@ id: 1ed3f55c82af9380
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Can I invest through SIP in HDFC Flexi Cap Fund?
 chunk_index: 19
 words: 27
@@ -1056,7 +1049,7 @@ id: 7b9997fe6241e4c1
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What is the investment strategy of HDFC Flexi Cap Fund?
 chunk_index: 20
 words: 31
@@ -1069,7 +1062,7 @@ id: 09181ec0cb0262d1
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What makes HDFC Flexi Cap Fund different from large-cap funds?
 chunk_index: 21
 words: 33
@@ -1082,7 +1075,7 @@ id: ef73c9cce548e721
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What is the minimum SIP amount in HDFC Flexi Cap Fund?
 chunk_index: 22
 words: 64
@@ -1096,7 +1089,7 @@ id: 423da3e9451bec97
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
 title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
 scheme: hdfc-flexi-cap
-fetched_at: 2026-10-01T09:37:47+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: What benchmark does HDFC Flexi Cap Fund use?
 chunk_index: 23
 words: 35
@@ -1109,7 +1102,7 @@ id: e12391846b4dc56c
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Overview
 chunk_index: 0
 words: 17
@@ -1121,7 +1114,7 @@ id: 6d6dc093ba6ac2d3
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: About HDFC ELSS - Tax Saver Fund
 chunk_index: 1
 words: 167
@@ -1147,7 +1140,7 @@ id: 115fc69b559440a7
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: About HDFC ELSS - Tax Saver Fund
 chunk_index: 2
 words: 185
@@ -1181,7 +1174,7 @@ id: 78e58630a247b6f3
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: About HDFC ELSS - Tax Saver Fund
 chunk_index: 3
 words: 109
@@ -1206,7 +1199,7 @@ id: ca25b0a05b5efc06
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Benchmark Performance
 chunk_index: 4
 words: 68
@@ -1228,7 +1221,7 @@ id: 074cb5c8eab52ea9
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Portfolio Allocation & Top Holdings
 chunk_index: 5
 words: 12
@@ -1243,7 +1236,7 @@ id: 968c671d3d0391cf
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Downloads
 chunk_index: 6
 words: 26
@@ -1259,7 +1252,7 @@ id: 441cd7e99ae68cf6
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Exit Load
 chunk_index: 7
 words: 3
@@ -1272,7 +1265,7 @@ id: 0746897cc3095ad5
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Product Suitability
 chunk_index: 8
 words: 41
@@ -1288,7 +1281,7 @@ id: d74d724138e5b073
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: 1. How to Invest in HDFC ELSS Tax Saver?
 chunk_index: 9
 words: 158
@@ -1310,7 +1303,7 @@ id: 78c6c9e695f3d8d5
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: 2. Can I invest in SIP and Lump Sum of the HDFC ELSS Tax Saver?
 chunk_index: 10
 words: 59
@@ -1323,7 +1316,7 @@ id: ef5aeb651d000e47
 url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
 title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
 scheme: hdfc-elss-tax-saver
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: 3. How to Redeem HDFC ELSS Tax Saver?
 chunk_index: 11
 words: 159
@@ -1342,7 +1335,7 @@ id: 2150c113a92981a2
 url: https://www.hdfcfund.com/mutual-funds/factsheets
 title: Fund Factsheets – NAV & Portfolio Details | HDFC Mutual Fund
 scheme: hdfc-fund-hub
-fetched_at: 2026-10-01T09:37:48+00:00
+fetched_at: 2026-10-01T16:18:42+00:00
 heading: Factsheet
 chunk_index: 0
 words: 35
