@@ -1,0 +1,1355 @@
+==============================================================================
+CHUNK DUMP - HDFC Mutual Fund FAQ Assistant
+==============================================================================
+generated_at : 2026-10-01T09:37:59+00:00
+chunks       : 63
+strategy     : heading-aware split, target 160 words, max 200, overlap 30 (docs/chunking.md)
+
+corpus (docs/PRD.md section 4.2):
+  - https://www.hdfcfund.com/
+  - https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+  - https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+  - https://www.hdfcfund.com/mutual-funds/factsheets
+  - https://www.hdfcfund.com/mutual-funds/fund-documents
+
+dropped       : 15
+     2  boilerplate
+    13  under 12 words
+==============================================================================
+
+=== CHUNK 1 ===
+id: b39cba6a8c2ff135
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Overview
+chunk_index: 0
+words: 12
+---
+Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+
+=== CHUNK 2 ===
+id: 146a2fc64c6acc62
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Join 1.7 Crore+ investors Who trust HDFC Mutual Fund
+chunk_index: 1
+words: 106
+---
+Join 1.7 Crore+ investors Who trust HDFC Mutual Fund
+Disciplined mutual fund investing for your goals.
+Where are you in your investment journey?
+I’m just starting out
+Know your investor type & get a mutual fund handbook
+I want to explore
+Browse all our funds at your own pace.
+I know what I want
+Go straight to investing or login.
+An important security updates for investors
+Know More
+HDFC International Funds
+Your gateway to global opportunities
+Know More
+An important security updates for investors
+Know More
+HDFC International Funds
+Your gateway to global opportunities
+Know More
+An important security updates for investors
+Know More
+1
+2
+
+=== CHUNK 3 ===
+id: e01b221e5efab624
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Mutual Fund Tools
+chunk_index: 2
+words: 31
+---
+Mutual Fund Tools
+Access key sections in a click
+Regulatory
+Announcements
+Update KYC
+Sign Up
+Calculate SIP
+Check KYC
+Status
+Check NAV
+& IDCW
+Download
+A/c Statement
+View Total
+Expense Ratio
+
+=== CHUNK 4 ===
+id: f35065fc50ed5feb
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Explore Mutual Funds by Category
+chunk_index: 3
+words: 24
+---
+Explore Mutual Funds by Category
+Start your investment journey
+All
+Equity
+Debt
+Hybrid
+Solution Oriented
+Fund of Funds
+ETF
+Tax Saver
+Index
+Close Ended
+
+=== CHUNK 5 ===
+id: ea057750133f0c82
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC
+chunk_index: 4
+words: 33
+---
+HDFC
+Flexi Cap Fund
+Equity
+Returns: NA
+Inception date:: 01-01-95
+AUM: (as on
+31/08/26
+)
+₹ 113,606.47 Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+41.4 L
+KNOW MORE
+INVEST NOW
+
+=== CHUNK 6 ===
+id: 0d77d7eebcac7b09
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC
+chunk_index: 5
+words: 33
+---
+HDFC
+Mid Cap Fund
+Equity
+Returns: NA
+Inception date:: 25-06-07
+AUM: (as on
+31/08/26
+)
+₹ 108,324.55 Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+45.2 L
+KNOW MORE
+INVEST NOW
+
+=== CHUNK 7 ===
+id: de03164b4885cd34
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC
+chunk_index: 6
+words: 41
+---
+HDFC
+Silver ETF Fund of Fund
+Fund of Funds
+Returns: NA
+Inception date:: 28-10-22
+AUM: (as on
+31/08/26
+)
+₹ 4,698.50 Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+12.7 L
+KNOW MORE
+INVEST NOW
+EXPLORE ALL MUTUAL FUNDS
+
+=== CHUNK 8 ===
+id: 8e28e14dbbe00d48
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: New Fund Offering
+chunk_index: 7
+words: 166
+---
+New Fund Offering
+Why invest in HDFC FTSE India Equity ETF?
+Provides ~90% market cap coverage of FTSE India All Cap Index
+Diversifications across multiple stocks and sectors
+FTSE India Equity TRI has generated healthy returns over long-term horizons
+For detailed information and disclosures click on
+Know More
+Why invest in HDFC Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70:30 Index Fund?
+Exposure to both, Equity and Debt, in a single scheme.
+Aim to benefit from the growth potential of Equity with the stability of Debt.
+Low correlation between Equity and Debt helps reduce portfolio volatility and provides diversification benefits.
+Systematic rebalancing helps avoid behavioral biases associated with DIY rebalancing.
+For detailed information and disclosures click on
+Know More
+HDFC
+FTSE India Equity ETF
+Fund Category
+ETF
+Riskometer: Very High
+NFO Open Date
+23/09/2026
+NFO Close Date
+07/10/2026
+KNOW MORE
+INVEST NOW
+HDFC
+Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70:30 Index Fund
+Fund Category
+Index
+Riskometer: High
+NFO Open Date
+05/10/2026
+NFO Close Date
+19/10/2026
+KNOW MORE
+
+=== CHUNK 9 ===
+id: 361b67cbd37df28e
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC Balanced Advantage Fund
+chunk_index: 8
+words: 13
+---
+HDFC Balanced Advantage Fund
+Return
+14.57
+% Since Inception
+Very High
+View Detail
+
+=== CHUNK 10 ===
+id: 6b7bc26aeff22417
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC Nifty 50 Index Fund
+chunk_index: 9
+words: 12
+---
+HDFC Nifty 50 Index Fund
+Return
+11.79
+% Since Inception
+Very High
+
+=== CHUNK 11 ===
+id: c217e6be1cc546b7
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC NIFTY Next 50 Index Fund
+chunk_index: 10
+words: 13
+---
+HDFC NIFTY Next 50 Index Fund
+Return
+12.24
+% Since Inception
+Very High
+
+=== CHUNK 12 ===
+id: 11f6d33be3cb91ad
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC Nifty LargeMidcap 250 Index Fund
+chunk_index: 11
+words: 15
+---
+HDFC Nifty LargeMidcap 250 Index Fund
+Return
+1.69
+% Since Inception
+Very High
+View Detail
+
+=== CHUNK 13 ===
+id: 32cb47eb020467cd
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC Transportation and Logistics Fund
+chunk_index: 12
+words: 12
+---
+HDFC Transportation and Logistics Fund
+Return
+27.82
+% Since Inception
+Very High
+
+=== CHUNK 14 ===
+id: fa3767d24b4ff977
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: HDFC Pharma and Healthcare Fund
+chunk_index: 13
+words: 17
+---
+HDFC Pharma and Healthcare Fund
+Return
+32.38
+% Since Inception
+Very High
+View Detail
+Explore All Funds
+
+=== CHUNK 15 ===
+id: 1174be3adee05b7f
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Start Investing in Mutual Funds
+chunk_index: 14
+words: 26
+---
+Start Investing in Mutual Funds
+Understand your investment personality, and get
+a curated list of funds that match your needs.
+Plan Your Goals
+Know Your Personality
+
+=== CHUNK 16 ===
+id: ce7e3f878e28a676
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Flexi Cap Fund
+chunk_index: 15
+words: 37
+---
+Flexi Cap Fund
+NAV as on
+30 Sep 2026
+- ₹
+2169.07
+AUM (as on
+31/08/26
+)
+₹
+113,606.47
+Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+41.4 L
+Returns: INVEST NOW
+KNOW MORE
+HDFC
+
+=== CHUNK 17 ===
+id: 1b9768c444dfa5d5
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Mid Cap Fund
+chunk_index: 16
+words: 37
+---
+Mid Cap Fund
+NAV as on
+30 Sep 2026
+- ₹
+220.58
+AUM (as on
+31/08/26
+)
+₹
+108,324.55
+Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+45.2 L
+Returns: INVEST NOW
+KNOW MORE
+HDFC
+
+=== CHUNK 18 ===
+id: 66492381fc5a4249
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Silver ETF Fund of Fund
+chunk_index: 17
+words: 39
+---
+Silver ETF Fund of Fund
+NAV as on
+30 Sep 2026
+- ₹
+36.19
+AUM (as on
+31/08/26
+)
+₹
+4,698.50
+Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+12.7 L
+Returns: INVEST NOW
+KNOW MORE
+HDFC
+
+=== CHUNK 19 ===
+id: 2f60da18bb56b2f6
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Small Cap Fund
+chunk_index: 18
+words: 37
+---
+Small Cap Fund
+NAV as on
+30 Sep 2026
+- ₹
+156.27
+AUM (as on
+31/08/26
+)
+₹
+41,890.86
+Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+24.2 L
+Returns: INVEST NOW
+KNOW MORE
+HDFC
+
+=== CHUNK 20 ===
+id: bad5a04a21d2eeef
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Balanced Advantage Fund
+chunk_index: 19
+words: 36
+---
+Balanced Advantage Fund
+NAV as on
+30 Sep 2026
+- ₹
+549.92
+AUM (as on
+31/08/26
+)
+₹
+107,295.79
+Cr.
+Riskometer: Very High
+Investors
+Investors
+(as on
+31-08-2026
+)
+17.2 L
+Returns: INVEST NOW
+KNOW MORE
+
+=== CHUNK 21 ===
+id: f9c181d17a81b439
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Latest Posts And Shorts
+chunk_index: 20
+words: 163
+---
+Latest Posts And Shorts
+SIP पॉज़ करने का सही तरीका #FinancialPlanning #SIP #HDFCAMC
+क्या SIP को रोज़ चेक करना ज़रूरी है?
+Can You Guess This Fund From 3 Hints?
+HIGHLIGHTS
+Har Haath Ko Nivesh Ka Saath – Start with Just ₹250...
+HIGHLIGHTS
+HDFC MF - Yearbook 2025
+179 Times growth with HDFC Balanced Advantage Fund! I HDFC Mutual Fund
+Invested without research? | MoneyEazy
+SIP की शुरुआत के लिए सही फंड कैसे चुनें?
+HIGHLIGHTS
+Cyber Security Important update for Investors
+DEEP DIVES
+Aim to make the most of the market’s consolidation ph...
+DEEP DIVES
+India could hold its Fiscal Deficit Target despite the ...
+Macros, Markets and More
+Market Review - August 2026
+Happy World Sleep Day.
+SIP के लिए सही फंड कैसे चुनें?
+One wrong move could ruin your portfolio | HDFC Balanced Advantage Fund
+Macros, Markets and More
+Revisiting the Realty Sector: Steady Fundamentals with ...
+DEEP DIVES
+The Lighthouse By HDFC Mutual Fund - July 2026
+Macros, Markets and More
+
+=== CHUNK 22 ===
+id: cabdbe7d95998247
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Latest Posts And Shorts
+chunk_index: 21
+words: 186
+---
+Latest Posts And Shorts
+Macros, Markets and More
+Revisiting the Realty Sector: Steady Fundamentals with ...
+DEEP DIVES
+The Lighthouse By HDFC Mutual Fund - July 2026
+Macros, Markets and More
+Monetary Policy Review – August 2026
+DEEP DIVES
+HDFC MF Insights - Shining Through Storms The Power of ...
+SIP पॉज़ करने का सही तरीका #FinancialPlanning #SIP #HDFCAMC
+क्या SIP को रोज़ चेक करना ज़रूरी है?
+Can You Guess This Fund From 3 Hints?
+HIGHLIGHTS
+Har Haath Ko Nivesh Ka Saath – Start with Just ₹250...
+HIGHLIGHTS
+HDFC MF - Yearbook 2025
+179 Times growth with HDFC Balanced Advantage Fund! I HDFC Mutual Fund
+Invested without research? | MoneyEazy
+SIP की शुरुआत के लिए सही फंड कैसे चुनें?
+HIGHLIGHTS
+Cyber Security Important update for Investors
+DEEP DIVES
+Aim to make the most of the market’s consolidation ph...
+DEEP DIVES
+India could hold its Fiscal Deficit Target despite the ...
+Macros, Markets and More
+Market Review - August 2026
+Happy World Sleep Day.
+SIP के लिए सही फंड कैसे चुनें?
+One wrong move could ruin your portfolio | HDFC Balanced Advantage Fund
+Macros, Markets and More
+
+=== CHUNK 23 ===
+id: 930494137abb53e4
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Latest Posts And Shorts
+chunk_index: 22
+words: 116
+---
+Latest Posts And Shorts
+Happy World Sleep Day.
+SIP के लिए सही फंड कैसे चुनें?
+One wrong move could ruin your portfolio | HDFC Balanced Advantage Fund
+Macros, Markets and More
+Revisiting the Realty Sector: Steady Fundamentals with ...
+DEEP DIVES
+The Lighthouse By HDFC Mutual Fund - July 2026
+Macros, Markets and More
+Monetary Policy Review – August 2026
+DEEP DIVES
+HDFC MF Insights - Shining Through Storms The Power of ...
+SIP पॉज़ करने का सही तरीका #FinancialPlanning #SIP #HDFCAMC
+क्या SIP को रोज़ चेक करना ज़रूरी है?
+Can You Guess This Fund From 3 Hints?
+HIGHLIGHTS
+Har Haath Ko Nivesh Ka Saath – Start with Just ₹250...
+HIGHLIGHTS
+HDFC MF - Yearbook 2025
+
+=== CHUNK 24 ===
+id: 99ece5f02759c10e
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Mutual Fund Simplified For You
+chunk_index: 23
+words: 46
+---
+Mutual Fund Simplified For You
+CAGR Meaning: What is CAGR, Formula, Calculation and How It Works
+How to Select a Mutual Fund for SIP: Key Factors and Evaluation Approach
+XIRR Meaning: What is XIRR, Formula, Calculation & How It Works
+What is Gold ETF?
+VIEW MORE
+
+=== CHUNK 25 ===
+id: e10eef823bf3322f
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: How To Start Your Investing Journey With HDFC Mutual Fund Online
+chunk_index: 24
+words: 125
+---
+How To Start Your Investing Journey With HDFC Mutual Fund Online
+Login with mobile
+complete
+Login with mobile
+Enter PAN & DOB for KYC verification
+complete
+Enter PAN & DOB for KYC verification
+Select fund to invest
+complete
+Select fund to invest
+Add investment details
+complete
+Add investment details
+Choose preferred payment mode & invest
+complete
+Choose preferred payment mode & invest
+Manage your investments with ease
+complete
+Manage your investments with ease
+INVEST NOW
+Expert Fund Management
+Managed by experienced professionals.
+Diversified Investments
+Reduce risk with balanced investing.
+Download Our App
+3K+ Reviews
+Start SIPs Easily
+Invest with small monthly amounts.
+Track & Manage Easily
+Monitor your portfolio effortlessly.
+4.5
+Loved by millions of Investors.
+Join 1.7 crore+ Investors
+Who Trust HDFC Mutual Fund
+
+=== CHUNK 26 ===
+id: 54b431c0fe3c9ac5
+url: https://www.hdfcfund.com/
+title: Mutual Funds: Invest Online & Start a SIP | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Ways To Invest In Mutual Funds
+chunk_index: 25
+words: 13
+---
+Ways To Invest In Mutual Funds
+WhatsApp
+Sign Up
+Transact on a Call
+
+=== CHUNK 27 ===
+id: d18d00900968940f
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Overview
+chunk_index: 0
+words: 16
+---
+HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+
+=== CHUNK 28 ===
+id: 2fc74265aab97d80
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: About HDFC Flexi Cap Fund
+chunk_index: 1
+words: 81
+---
+About HDFC Flexi Cap Fund
+An open ended dynamic equity scheme investing across large cap, mid cap & small cap stocks
+30+ Years of Growth & Trust
+Since inception, HDFC Flexi Cap Fund has navigated multiple market cycle over more than 3 decades
+Flexi Cap Funds offer fund managers complete flexibility to allocate assets across large, mid, and small-cap stocks, based on market conditions. This adaptability makes HDFC Flexi Cap Fund attractive to investors seeking diversified exposure to the equity market.
+
+=== CHUNK 29 ===
+id: 502873d1efadf3f9
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What is HDFC Flexi Cap Fund?
+chunk_index: 2
+words: 57
+---
+What is HDFC Flexi Cap Fund?
+Fund Description: HDFC Flexi Cap Fund is an open-ended equity mutual fund scheme that invests across large-cap, mid-cap, and small-cap companies.
+This allows the fund to combine:
+Stability from established market leaders
+Growth potential from mid-sized companies
+Emerging opportunities from smaller businesses
+helping create a balanced approach to long-term wealth creation.
+
+=== CHUNK 30 ===
+id: be6239ef9bd6a44c
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Who can consider HDFC Flexi Cap Fund?
+chunk_index: 3
+words: 36
+---
+Who can consider HDFC Flexi Cap Fund?
+This fund may suit investors who:
+Have a long-term investment horizon (5+ years)
+Want diversified equity exposure across market caps
+Are comfortable with short-term market volatility for long-term growth
+
+=== CHUNK 31 ===
+id: 964bc174779481f9
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: How to start investing
+chunk_index: 4
+words: 121
+---
+How to start investing
+Investors can start investing in HDFC Flexi Cap Fund through the following steps:
+Complete your KYC
+Keep PAN, Aadhaar and bank details ready.
+Visit HDFC Mutual Fund Website / App
+Go to the fund page and click Invest Now.
+Choose Investment Mode
+SIP – invest a fixed amount monthly
+Lump Sum – invest one time
+Select Plan & Option
+Direct or Regular Plan
+Growth or IDCW option
+Enter Amount & Payment Details
+Set SIP date or make payment online.
+Confirm & Start Investing
+Your investment will be processed and units will be allotted.
+Returns since inception: 16.17%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 100
+Ideal for: Wealth Creation
+3 Years and above
+Entry Load
+
+=== CHUNK 32 ===
+id: 2dafcd32a3051a79
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: How to start investing
+chunk_index: 5
+words: 177
+---
+How to start investing
+Returns since inception: 16.17%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 100
+Ideal for: Wealth Creation
+3 Years and above
+Entry Load
+An entry load is a fee charged to investors when they purchase units of a Mutual Fund scheme. This fee was used to cover distribution and marketing expenses incurred by the Asset Management Company (AMC). Currently, Mutual Funds in India do not levy entry loads.
+NA
+TER
+TER
+The Total Expense Ration (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme’s average Net Asset Value (NAV). The daily NAV of a Mutual Fund is disclosed after deducting these expenses.
+Disclaimer
+Including Additional Expenses and Goods and Service Tax on Management Fees, if any.
+Click here
+to view the Total Expense Ratio
+0.77
+Lock in
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units. For example, Equity Linked Savings Schemes (ELSS) Funds have a 3-year lock-in.
+NA
+NAV: NA
+
+=== CHUNK 33 ===
+id: 9d986eb922d808fe
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: How to start investing
+chunk_index: 6
+words: 105
+---
+How to start investing
+NA
+NAV: NA
+Net Asset Value (NAV) per unit is the total market value of securities of a scheme minus liabilities divided by the total number of outstanding units on a given date.
+NA
+AUM
+(31/08/2026)
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+₹113,606.47 Cr.
+Benchmark
+A benchmark is a standard market index used to compare a Fund’s performance. It helps investors know whether the Fund is performing better, worse, or similar to the market.
+NIFTY 500 Total Retu...
+NIFTY 500 Total Returns Index
+INVEST NOW
+
+=== CHUNK 34 ===
+id: 6186935537206a20
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Benchmark Performance
+chunk_index: 7
+words: 68
+---
+Benchmark Performance
+Scheme Returns (%)
+Benchmark Returns (%)#
+Additional Benchmark Returns (%)##
+Value of Investment of Rs 10,000
+Scheme Returns (Rs.)
+Benchmark (Rs.)#
+Additional Benchmark (Rs.)##
+^Past performance may or may not be sustained in future and is not a guarantee of any future returns. # Nifty 500 TRI ## Nifty 50 ...
+Read More
+Click here to view performance of other schemes managed by the Fund Manager(s)
+
+=== CHUNK 35 ===
+id: 5be9540c43e07c7a
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Portfolio Allocation & Top Holdings
+chunk_index: 8
+words: 12
+---
+Portfolio Allocation & Top Holdings
+As on 31 Aug 2026
+Graph
+Table
+
+=== CHUNK 36 ===
+id: 6495b8c798128b52
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Downloads
+chunk_index: 9
+words: 44
+---
+Downloads
+HDFC Flexi Cap Fund
+SID - HDFC Flexi Cap Fund dated November 21, 2025
+KIM - HDFC Flexi Cap Fund dated November 21, 2025
+Fund Facts - HDFC Flexi Cap Fund
+Presentation - HDFC Flexi Cap Fund
+Leaflet - HDFC Flexi Cap Fund
+
+=== CHUNK 37 ===
+id: 5aa3fa8cf5704f30
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Exit Load
+chunk_index: 10
+words: 51
+---
+Exit Load
+In respect of each purchase / switch-in of Units, an Exit Load of 1.00% is payable if Units are redeemed / switched-out within 1 year from the date of allotment.
+No Exit Load is payable if Units are redeemed / switched-out after 1 year from the date of allotment.
+
+=== CHUNK 38 ===
+id: 434f8eb7b226e4d7
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Product Suitability
+chunk_index: 11
+words: 45
+---
+Product Suitability
+This product is suitable for investors who are seeking~
+• To generate long-term capital appreciation / income
+• Investment predominantly in equity & equity related instruments
+~Investors should consult their financial advisers if in doubt about whether the product is suitable for them.
+
+=== CHUNK 39 ===
+id: f943822ce067d9c5
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What is HDFC Flexi Cap Fund?
+chunk_index: 12
+words: 35
+---
+What is HDFC Flexi Cap Fund?
+HDFC Flexi Cap Fund is an open-ended equity mutual fund that invests across large-cap, mid-cap, and small-cap stocks, giving the fund manager flexibility to capture opportunities across market segments.
+
+=== CHUNK 40 ===
+id: acd695dd2a4819d1
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: How does a Flexi Cap Fund work?
+chunk_index: 13
+words: 26
+---
+How does a Flexi Cap Fund work?
+A flexi cap fund dynamically allocates investments across different market capitalizations based on market conditions, valuations, and growth opportunities.
+
+=== CHUNK 41 ===
+id: 2742bdf617d4762f
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What is the key advantage of a Flexi Cap Fund?
+chunk_index: 14
+words: 40
+---
+What is the key advantage of a Flexi Cap Fund?
+The main advantage is flexibility — the fund manager can shift allocation between large, mid, and small caps to optimize risk-reward potential. Please refer Scheme Documents above for more details
+
+=== CHUNK 42 ===
+id: 7350a707ccfcaec7
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Is HDFC Flexi Cap Fund suitable for long-term investment?
+chunk_index: 15
+words: 27
+---
+Is HDFC Flexi Cap Fund suitable for long-term investment?
+Yes, it is generally suited for investors with a long-term horizon (5+ years) who want diversified equity exposure.
+
+=== CHUNK 43 ===
+id: 2a483ca3c909ef3e
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Who should invest in HDFC Flexi Cap Fund?
+chunk_index: 16
+words: 25
+---
+Who should invest in HDFC Flexi Cap Fund?
+Investors seeking long-term capital appreciation, diversification across market caps, and professional portfolio management may consider this fund.
+
+=== CHUNK 44 ===
+id: 3d027c67f6f24baa
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Is this fund risky?
+chunk_index: 17
+words: 29
+---
+Is this fund risky?
+Since it invests in equities across market caps, the fund carries market risk. However, diversification across large, mid, and small caps aims to manage volatility.
+
+=== CHUNK 45 ===
+id: 6cc57160950357c3
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: How is Flexi Cap different from Multi Cap funds?
+chunk_index: 18
+words: 33
+---
+How is Flexi Cap different from Multi Cap funds?
+Flexi Cap funds have complete flexibility in allocation across market caps, whereas Multi Cap funds follow SEBI-defined minimum allocation rules for each market segment.
+
+=== CHUNK 46 ===
+id: 1ed3f55c82af9380
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: Can I invest through SIP in HDFC Flexi Cap Fund?
+chunk_index: 19
+words: 27
+---
+Can I invest through SIP in HDFC Flexi Cap Fund?
+Yes, investors can start a SIP to invest regularly and benefit from rupee cost averaging over time.
+
+=== CHUNK 47 ===
+id: 7b9997fe6241e4c1
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What is the investment strategy of HDFC Flexi Cap Fund?
+chunk_index: 20
+words: 31
+---
+What is the investment strategy of HDFC Flexi Cap Fund?
+The fund follows a diversified approach focusing on quality businesses, valuation discipline, and long-term growth opportunities across sectors and market caps.
+
+=== CHUNK 48 ===
+id: 09181ec0cb0262d1
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What makes HDFC Flexi Cap Fund different from large-cap funds?
+chunk_index: 21
+words: 33
+---
+What makes HDFC Flexi Cap Fund different from large-cap funds?
+Unlike large-cap funds that mainly invest in large cap companies, this fund can invest across the entire market spectrum, providing wider growth opportunities.
+
+=== CHUNK 49 ===
+id: ef73c9cce548e721
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What is the minimum SIP amount in HDFC Flexi Cap Fund?
+chunk_index: 22
+words: 64
+---
+What is the minimum SIP amount in HDFC Flexi Cap Fund?
+The minimum SIP amount for HDFC Flexi Cap Fund is ₹100 (or as specified by the scheme). Investors can start a Systematic Investment Plan with small periodic investments and increase the amount over time based on their financial goals.
+You can refer website or the scheme information document for the latest investment requirements.
+
+=== CHUNK 50 ===
+id: 423da3e9451bec97
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-flexi-cap-fund/direct
+title: HDFC Flexi Cap Fund – Direct Plan | NAV, Returns & SIP | HDFC Mutual Fund
+scheme: hdfc-flexi-cap
+fetched_at: 2026-10-01T09:37:47+00:00
+heading: What benchmark does HDFC Flexi Cap Fund use?
+chunk_index: 23
+words: 35
+---
+What benchmark does HDFC Flexi Cap Fund use?
+HDFC Flexi Cap Fund is benchmarked against NIFTY 500 Total Returns Index (TRI), which represents the performance of a broad range of companies across different market capitalisations.
+
+=== CHUNK 51 ===
+id: e12391846b4dc56c
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Overview
+chunk_index: 0
+words: 17
+---
+HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+
+=== CHUNK 52 ===
+id: 6d6dc093ba6ac2d3
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: About HDFC ELSS - Tax Saver Fund
+chunk_index: 1
+words: 167
+---
+About HDFC ELSS - Tax Saver Fund
+An Open-ended Equity Linked Savings Scheme with a statutory lock in of 3 years and tax benefit.
+This is a simple and performing scheme which is eligible for distribution by new cadre of distributors.
+The scheme offers the dual benefit of tax saving and wealth creation. It comes with a lock-in period of three years and provides individuals/HUFs a deduction from gross total income for investments in Equity-Linked Savings Scheme upto ₹1.5 lakh under section 80C of the Income Tax Act 1961.
+The fund invests 80-100% of its portfolio in equity or equity related instruments.The equity strategy aims to provide long term capital appreciation from a reasonably diversified portfolio consisting of mid cap and large cap companies which:
+are likely to achive above average growth than the industry,
+enjoy distinct competetive advantages,
+have superior financial strenghts.
+Returns since inception: 14.19%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 500
+Ideal for: Wealth Creation
+3 Years and above
+Entry Load
+
+=== CHUNK 53 ===
+id: 115fc69b559440a7
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: About HDFC ELSS - Tax Saver Fund
+chunk_index: 2
+words: 185
+---
+About HDFC ELSS - Tax Saver Fund
+have superior financial strenghts.
+Returns since inception: 14.19%
+Inception Date: 01/01/2013
+Riskometer: Very High
+Min SIP: ₹ 500
+Ideal for: Wealth Creation
+3 Years and above
+Entry Load
+An entry load is a fee charged to investors when they purchase units of a Mutual Fund scheme. This fee was used to cover distribution and marketing expenses incurred by the Asset Management Company (AMC). Currently, Mutual Funds in India do not levy entry loads.
+NA
+TER
+TER
+The Total Expense Ration (TER) represents the costs for running and managing a Mutual Fund scheme. It is calculated as a percentage of the scheme’s average Net Asset Value (NAV). The daily NAV of a Mutual Fund is disclosed after deducting these expenses.
+Disclaimer
+Including Additional Expenses and Goods and Service Tax on Management Fees, if any.
+Click here
+to view the Total Expense Ratio
+1.21
+Lock in
+A lock-in period is the fixed duration during which investors cannot sell or redeem their investments/Mutual Fund units. For example, Equity Linked Savings Schemes (ELSS) Funds have a 3-year lock-in.
+3 years
+NAV: NA
+
+=== CHUNK 54 ===
+id: 78e58630a247b6f3
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: About HDFC ELSS - Tax Saver Fund
+chunk_index: 3
+words: 109
+---
+About HDFC ELSS - Tax Saver Fund
+3 years
+NAV: NA
+Net Asset Value (NAV) per unit is the total market value of securities of a scheme minus liabilities divided by the total number of outstanding units on a given date.
+NA
+AUM
+(31/08/2026)
+Assets Under Management (AUM) is the total market value of all assets that a Mutual Fund manages on behalf of its investors.
+₹15,991.78 Cr.
+Benchmark
+A benchmark is a standard market index used to compare a Fund’s performance. It helps investors know whether the Fund is performing better, worse, or similar to the market.
+NIFTY 500 Total Retu...
+NIFTY 500 Total Returns Index
+INVEST NOW
+
+=== CHUNK 55 ===
+id: ca25b0a05b5efc06
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Benchmark Performance
+chunk_index: 4
+words: 68
+---
+Benchmark Performance
+Scheme Returns (%)
+Benchmark Returns (%)#
+Additional Benchmark Returns (%)##
+Value of Investment of Rs 10,000
+Scheme Returns (Rs.)
+Benchmark (Rs.)#
+Additional Benchmark (Rs.)##
+^Past performance may or may not be sustained in future and is not a guarantee of any future returns. # Nifty 500 TRI ## Nifty 50 ...
+Read More
+Click here to view performance of other schemes managed by the Fund Manager(s)
+
+=== CHUNK 56 ===
+id: 074cb5c8eab52ea9
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Portfolio Allocation & Top Holdings
+chunk_index: 5
+words: 12
+---
+Portfolio Allocation & Top Holdings
+As on 31 Aug 2026
+Graph
+Table
+
+=== CHUNK 57 ===
+id: 968c671d3d0391cf
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Downloads
+chunk_index: 6
+words: 26
+---
+Downloads
+HDFC ELSS - Tax Saver Fund
+SID - HDFC ELSS Tax Saver
+KIM - HDFC ELSS Tax Saver
+Fund Facts - HDFC Tax Saver Fund
+
+=== CHUNK 58 ===
+id: 441cd7e99ae68cf6
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Exit Load
+chunk_index: 7
+words: 3
+---
+Exit Load
+NIL
+
+=== CHUNK 59 ===
+id: 0746897cc3095ad5
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Product Suitability
+chunk_index: 8
+words: 41
+---
+Product Suitability
+This product is suitable for investors who are seeking~
+to generate long-term capital appreciation/income
+investment predominantly of equity and equity related instruments
+~Investors should consult their financial advisers if in doubt about whether the product is suitable for them.
+
+=== CHUNK 60 ===
+id: d74d724138e5b073
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: 1. How to Invest in HDFC ELSS Tax Saver?
+chunk_index: 9
+words: 158
+---
+1. How to Invest in HDFC ELSS Tax Saver?
+Investors can apply for their transactions requests either offline or electronically using the relevant application / transaction request forms available on our website or at any of our Officials Points of Acceptance.
+The application form/transaction slip for subscription/ redemption/ switches can be submitted at our Official Points of Acceptances whose addresses are available on the website of the AMC. These include:
+1. AMC / RTA’s branches i.e. Investor Services Centres*
+2. HDFC MF website and App/ RTA website for Investors to transact
+3. MFSS/BSE StAR MF/NMF II platforms of the Stock Exchanges(s)
+4. Authorized Points of Service of MF Utilities India Private Limited (MFUI)
+5. Channel partners/ Distributors/ RIAs/ Portfolio Managers/Execution Only Platforms (EOPs) who have tied up with the AMC
+6. MF Central
+* Note: Business Centres i.e. Sales offices of HDFC AMC are not Official Points of Acceptance of transactions.
+Please refer offer documents for more details.
+
+=== CHUNK 61 ===
+id: 78c6c9e695f3d8d5
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: 2. Can I invest in SIP and Lump Sum of the HDFC ELSS Tax Saver?
+chunk_index: 10
+words: 59
+---
+2. Can I invest in SIP and Lump Sum of the HDFC ELSS Tax Saver?
+Yes, SIP as well as Lump Sum investments are permitted with the minimum application amount being ₹500. Any additional purchase must have a minimum amount of ₹500. The SIP and Lumpsum are available in direct and regular plan with both Growth and IDCW option.
+
+=== CHUNK 62 ===
+id: ef5aeb651d000e47
+url: https://www.hdfcfund.com/explore/mutual-funds/hdfc-elss-tax-saver-fund/direct
+title: HDFC ELSS - Tax Saver Fund Direct Plan | NAV, Returns & Portfolio | HDFC Mutual Fund
+scheme: hdfc-elss-tax-saver
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: 3. How to Redeem HDFC ELSS Tax Saver?
+chunk_index: 11
+words: 159
+---
+3. How to Redeem HDFC ELSS Tax Saver?
+Units of the scheme can be redeemed/switched out on any Business day at NAV based prices.
+For Redemption (including switch-out) applications
+• In respect of valid applications received upto 3 p.m. on a Business Day by the Fund, same day's closing NAV shall be applicable.
+• In respect of valid applications received after 3 p.m. on a Business Day by the Fund, the closing NAV of the next Business Day shall be applicable.
+Transactions through online facilities / electronic modes:
+The time of transaction done through various online facilities / electronic modes offered by the AMC, for the purpose of determining the applicability of NAV, would be the time when the request for purchase / sale / switch of units is received in the servers of AMC/RTA.
+The AMC has the right to amend cut off timings subject to SEBI (MF) Regulations for the smooth and efficient functioning of the Scheme.
+
+=== CHUNK 63 ===
+id: 2150c113a92981a2
+url: https://www.hdfcfund.com/mutual-funds/factsheets
+title: Fund Factsheets – NAV & Portfolio Details | HDFC Mutual Fund
+scheme: hdfc-fund-hub
+fetched_at: 2026-10-01T09:37:48+00:00
+heading: Factsheet
+chunk_index: 0
+words: 35
+---
+Factsheet
+Fund factsheet, which is endeavored to be published monthly, provides information our key schemes. It includes information such as Scheme objective, Inception date, Fund Manager, Portfolio Holdings, Risk Ratios, Historical performance, and much more.
+
+==============================================================================
+END OF DUMP - 63 chunks
+==============================================================================

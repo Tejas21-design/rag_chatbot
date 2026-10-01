@@ -1,0 +1,19 @@
+# Secrets: .env holds the real Groq key. Only .env.example is committed.
+.env
+
+# Local environment
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/
+
+# Binary vector store and raw HTML: regenerate with `python -m app.ingest`.
+# These are derived from the live HDFC pages, so they are not checked in.
+data/chroma/
+data/raw/
+
+# NOTE: data/chunks.txt IS committed on purpose. It is ~42KB of plain text and it
+# is the PRD section 13 criterion "chunks are inspectable in a .txt file" -- a
+# reviewer should be able to read the corpus without scraping HDFC themselves.
+# It goes stale as the pages update, which docs/verification.md calls out.
